@@ -1,0 +1,14 @@
+{
+	"server_id": "SERVER_ID(INTEGER)",
+	"color_basic": "#a7f432",
+	"color_error": "#ff2400",
+	"verified_role": "VERIFIED_ROLE_ID(INTEGER)", 
+	"disabled_commands": {},
+	"reserved_colors": {},
+	"central_bank": "CENTRAL_BANK_ACCOUNT_ID(INTEGER)",
+	"stocks": {"EXAMPLE_STOCK_CHANNEL_ID(INTEGER)": "EXAMPLE STOCK NAME"},
+	"base_reward": 1,
+	"fees": {"role_creation": 1000, "custom_color": 500, "custom_name": 0, "custom_icon": 1500, "separate_display": 1500, "color_change": 250, "name_change": 50},
+	"tax_preset": {"EXAMPLE STOCK NAME": 250, "default": 100},
+	"banned_words": "LIST OF BANNED WORDS TO BE DELETED WITH /clean_history"
+}
